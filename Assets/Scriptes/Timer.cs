@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] int second = 1;
-    [SerializeField] int minute = 1;
-    [SerializeField] GameUI gameUI;
+    [SerializeField] private int second = 1;
+    [SerializeField] private int minute = 1;
+    [SerializeField] private GameUI gameUI;
     Game gameInstance;
 
     public int Second { get => second; }

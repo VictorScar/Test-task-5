@@ -5,9 +5,9 @@ using UnityEngine;
 /// </summary>
 public class PhysicalObject : MonoBehaviour
 {
-    GamePhysics physics;
-    float weight;
-    float lenght;
+    private GamePhysics physics;
+    private float weight;
+    private float lenght;
 
     public float Weight { get => weight; }
     public float Lenght { get => lenght; }

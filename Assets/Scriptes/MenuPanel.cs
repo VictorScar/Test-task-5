@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class MenuPanel : MonoBehaviour
 {
-    [SerializeField] GameObject menuPanel;
+    [SerializeField] private GameObject menuPanel;
 
-    [SerializeField] TMP_Text headerText;
-    [SerializeField] TMP_Text totalScoreText;
-    [SerializeField] TMP_Text totalTimeText;
+    [SerializeField] private TMP_Text headerText;
+    [SerializeField] private TMP_Text totalScoreText;
+    [SerializeField] private TMP_Text totalTimeText;
     public void ShowMenuPanel(string mesage, int score, int minutes, int seconds)
     {
         headerText.text = mesage;

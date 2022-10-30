@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class CoinManager : MonoBehaviour
 {
-    [SerializeField] Coin coinPrefab;
-    Game gameInstance;
-    [SerializeField] GameUI gameUI;
+    [SerializeField] private Coin coinPrefab;
+    private Game gameInstance;
+    [SerializeField] private GameUI gameUI;
 
-    float playingFieldWedth;
-    float playingFieldLenght;
-    [SerializeField] List<Coin> collectedCoins;
-    [SerializeField] int coinCount = 10;
-    int collectedCoinCount = 0;
+    private float playingFieldWedth;
+    private float playingFieldLenght;
+    [SerializeField] private List<Coin> collectedCoins;
+    [SerializeField] private int coinCount = 10;
+    private int collectedCoinCount = 0;
 
     public int CollectedCoinCount { get => collectedCoinCount; }
 

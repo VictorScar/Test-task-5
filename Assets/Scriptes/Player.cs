@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] GameObject player;
 
-    float speed = 8f;
+    private float speed = 8f;
     public Vector3 direction;
 
     private void Update()

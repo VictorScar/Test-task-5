@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class GameUI : MonoBehaviour
 {
-    [SerializeField] TMP_Text scoreText;
-    [SerializeField] TMP_Text timeText;
+    [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private TMP_Text timeText;
 
     public void UpdateScoreText(int score)
     {

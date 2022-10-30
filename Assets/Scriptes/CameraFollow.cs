@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    Player target;
+    private Player target;
 
     private void Start()
     {

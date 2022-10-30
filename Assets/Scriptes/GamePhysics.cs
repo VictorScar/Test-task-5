@@ -6,8 +6,8 @@ using UnityEngine;
 /// </summary>
 public class GamePhysics : MonoBehaviour
 {
-    Player player;
-    [SerializeField] List<PhysicalObject> physicalObjects;
+    private Player player;
+    [SerializeField] private List<PhysicalObject> physicalObjects;
 
     private void Start()
     {
